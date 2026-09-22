@@ -28,7 +28,7 @@ export const BIBLE_COLLEGE_IMAGE = 'https://images.pexels.com/photos/9589377/pex
 export const GALLERY_IMAGES = [
   { src: 'https://images.pexels.com/photos/14587105/pexels-photo-14587105.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1', alt: 'Gospel meeting with hands raised in worship', label: 'Gospel Meetings' },
   { src: 'https://images.pexels.com/photos/8674810/pexels-photo-8674810.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1', alt: 'Prayer gathering in church', label: 'Prayer Meetings' },
-  { src: 'https://images.pexels.com/photos/7219090/pexels-photo-7219090.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1', alt: 'Open Bible on altar in church', label: 'Bible College' },
+ { src: '/gallery/bible-college.jpg', alt: 'Bible College graduation ceremony with certificates', label: 'Bible College' },
   { src: 'https://images.pexels.com/photos/8815031/pexels-photo-8815031.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1', alt: 'Choir singing in red robes', label: 'Worship' },
   { src: 'https://images.pexels.com/photos/6646926/pexels-photo-6646926.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1', alt: 'Community outreach volunteers distributing aid', label: 'Outreach' },
   { src: 'https://images.pexels.com/photos/8815016/pexels-photo-8815016.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1', alt: 'Church congregation in service', label: 'Ministry Activities' },
