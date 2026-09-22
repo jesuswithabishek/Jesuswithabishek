@@ -1,6 +1,16 @@
-/* =========================
-   NAVIGATION LINKS
-========================= */
+import galleryImage from './gallery.jpg';
+import bibleCollegeImage from './biblecollege.jpg';
+import ministryImage from './ministry.jpg';
+
+import andhraImage from './andhra.jpg';
+import bibleBatchImage from './biblebatch.jpg';
+import chennaiImage from './chennai.jpg';
+import veppambattuImage from './veppambattu.jpg';
+import childrenImage from './childrens.jpg';
+import communityImage from './community.jpg';
+import communityOutreachImage from './outreach.jpg';
+import worshipImage from './worship.jpg';
+import youthImage from './youth.png';
 
 export const NAV_LINKS = [
   { label: 'Home', href: '#home' },
@@ -13,121 +23,87 @@ export const NAV_LINKS = [
   { label: 'Contact', href: '#contact' },
 ];
 
-
-/* =========================
-   SOCIAL MEDIA LINKS
-========================= */
-
 export const SOCIAL_LINKS = {
   facebook: 'https://www.facebook.com/alarming_voice_of_jesus',
-
   youtube: 'https://www.youtube.com/',
-
-  instagram:
-    'https://www.instagram.com/alarming_voice_of_jesus/',
+  instagram: 'https://www.instagram.com/alarming_voice_of_jesus/',
 };
 
+export const HERO_IMAGE = galleryImage;
 
-/* =========================
-   WEBSITE IMAGES
-========================= */
+export const SCRIPTURE_IMAGE = galleryImage;
 
-import heroImage from './HERO_IMAGE.jpg';
-import scriptureImage from './SCRIPTURE_IMAGE.jpg';
-import prayerBgImage from './PRAYER_BG_IMAGE.jpg';
-import bibleCollegeImage from './BIBLE_COLLEGE_IMAGE.jpg';
-import galleryImage from './GALLERY_IMAGE.jpg';
-import ministryImage from './MINISTRY_IMAGE.jpg';
+export const PRAYER_BG_IMAGE = galleryImage;
 
-
-/* =========================
-   MAIN WEBSITE IMAGES
-========================= */
-
-export const HERO_IMAGE = heroImage;
-
-export const SCRIPTURE_IMAGE = scriptureImage;
-
-export const PRAYER_BG_IMAGE = prayerBgImage;
-
-export const OUTREACH_BG_IMAGE = galleryImage;
+export const OUTREACH_BG_IMAGE = communityOutreachImage;
 
 export const BIBLE_COLLEGE_IMAGE = bibleCollegeImage;
 
-
-/* =========================
-   GALLERY IMAGES
-========================= */
-
 export const GALLERY_IMAGES = [
   {
+    src: andhraImage,
+    alt: 'Andhra Childrens',
+    label: 'Andhra Childrens',
+  },
+  {
+    src: bibleBatchImage,
+    alt: 'Bible College Second Batch',
+    label: 'Bible College Second Batch',
+  },
+  {
     src: galleryImage,
-    alt: 'Gospel meeting with hands raised in worship',
-    label: 'Gospel Meetings',
+    alt: 'Bible Teaching',
+    label: 'Bible Teaching',
   },
-
   {
-    src: prayerBgImage,
-    alt: 'Prayer gathering in church',
-    label: 'Prayer Meetings',
+    src: chennaiImage,
+    alt: 'Chennai Childrens',
+    label: 'Chennai Childrens',
   },
-
   {
-    src: bibleCollegeImage,
-    alt: 'Bible College graduation ceremony',
-    label: 'Bible College',
+    src: veppambattuImage,
+    alt: 'Childrens Veppambattu',
+    label: 'Childrens Veppambattu',
   },
-
   {
-    src: ministryImage,
-    alt: 'Choir singing in worship',
+    src: childrenImage,
+    alt: 'Childrens',
+    label: 'Childrens',
+  },
+  {
+    src: communityOutreachImage,
+    alt: 'Community Outreach',
+    label: 'Community Outreach',
+  },
+  {
+    src: communityImage,
+    alt: 'Community Reachs',
+    label: 'Community Reachs',
+  },
+  {
+    src: galleryImage,
+    alt: 'Gallery Image',
+    label: 'Gallery Image',
+  },
+  {
+    src: worshipImage,
+    alt: 'Worship',
     label: 'Worship',
   },
-
   {
-    src: galleryImage,
-    alt: 'Community outreach activities',
-    label: 'Outreach',
-  },
-
-  {
-    src: ministryImage,
-    alt: 'Church congregation in ministry service',
-    label: 'Ministry Activities',
-  },
-
-  {
-    src: scriptureImage,
-    alt: 'Youth group reading the Bible together',
-    label: 'Youth Ministry',
-  },
-
-  {
-    src: galleryImage,
-    alt: 'Children learning together',
-    label: 'Children Ministry',
+    src: youthImage,
+    alt: 'Youth Meeting',
+    label: 'Youth Meeting',
   },
 ];
 
-
-/* =========================
-   MINISTRY IMAGES
-========================= */
-
 export const MINISTRY_IMAGES: Record<string, string> = {
   gospel: galleryImage,
-
-  prayer: prayerBgImage,
-
+  prayer: galleryImage,
   bible: bibleCollegeImage,
-
-  discipleship: scriptureImage,
-
-  youth: scriptureImage,
-
-  children: galleryImage,
-
-  worship: ministryImage,
-
-  outreach: galleryImage,
+  discipleship: galleryImage,
+  youth: youthImage,
+  children: childrenImage,
+  worship: worshipImage,
+  outreach: communityOutreachImage,
 };
