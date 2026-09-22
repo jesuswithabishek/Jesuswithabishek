@@ -3,24 +3,19 @@ import { Reveal, Stagger, StaggerItem } from '@/components/Reveal';
 
 const TESTIMONIALS = [
   {
-    name: 'Ravi Kumar',
-    role: 'Member, Chennai',
-    text: 'AVOJ Ministries changed my life. Through their Gospel meetings, I found Christ and a community that truly loves and supports me. I am forever grateful.',
+    name: 'Anthonyraj',
+    role: 'Founder, Kanchipuram, Uthiramerur',
+    text: 'AVOJ Ministries began with a simple calling — to serve God and stand by our community. Watching this trust grow from a small gathering into a family that cares for hundreds is God\'s faithfulness at work.',
   },
   {
-    name: 'Lakshmi Devi',
-    role: 'Prayer Partner, Thiruvallur',
-    text: 'The prayer ministry has been a lifeline for my family. When we faced our darkest hour, the AVOJ team stood with us in prayer and God answered.',
+    name: 'Samundeeswari',
+    role: 'Trustee/Treasurer, Kanchipuram, Uthiramerur',
+    text: 'Every rupee given to this ministry is a trust from God and from our supporters. It is a privilege to steward these resources so they truly reach the families who need them.',
   },
   {
-    name: 'Samuel Raj',
-    role: 'Bible College Student',
-    text: 'The Bible College gave me a solid foundation in God\'s Word. I came as a seeker and I am leaving equipped to serve His Kingdom with confidence.',
-  },
-  {
-    name: 'Grace Thomas',
-    role: 'Youth Member, Kanchipuram',
-    text: 'The youth ministry helped me discover my purpose in Christ. I now know that God has a plan for my life, and I am excited to walk in it.',
+    name: 'Rishikumar',
+    role: 'Trustee/Secretary, Chennai, Washermenpet',
+    text: 'Serving as secretary of this trust has shown me how much can be done when a community comes together in faith. Every meeting, every outreach is a step closer to God\'s plan for us.',
   },
 ];
 
