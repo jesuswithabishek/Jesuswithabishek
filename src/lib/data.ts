@@ -25,7 +25,7 @@ export const NAV_LINKS = [
 
 export const SOCIAL_LINKS = {
   facebook: 'https://www.facebook.com/alarming_voice_of_jesus',
-  youtube: 'https://www.youtube.com/',
+  youtube: 'https://youtu.be/PZU6CNzxSXM?si=3vy_P0VGaadVzc35',
   instagram: 'https://www.instagram.com/alarming_voice_of_jesus/',
 };
 
