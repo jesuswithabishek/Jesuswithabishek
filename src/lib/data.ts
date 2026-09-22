@@ -1,3 +1,7 @@
+/* =========================
+   NAVIGATION LINKS
+========================= */
+
 export const NAV_LINKS = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
@@ -9,92 +13,121 @@ export const NAV_LINKS = [
   { label: 'Contact', href: '#contact' },
 ];
 
+
+/* =========================
+   SOCIAL MEDIA LINKS
+========================= */
+
 export const SOCIAL_LINKS = {
   facebook: 'https://www.facebook.com/alarming_voice_of_jesus',
+
   youtube: 'https://www.youtube.com/',
-  instagram: 'https://www.instagram.com/alarming_voice_of_jesus/',
+
+  instagram:
+    'https://www.instagram.com/alarming_voice_of_jesus/',
 };
 
-export const HERO_IMAGE =
-  'https://images.pexels.com/photos/36425622/pexels-photo-36425622.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&dpr=1';
 
-export const SCRIPTURE_IMAGE =
-  'https://images.pexels.com/photos/9258238/pexels-photo-9258238.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&dpr=1';
+/* =========================
+   WEBSITE IMAGES
+========================= */
 
-export const PRAYER_BG_IMAGE =
-  'https://images.pexels.com/photos/4068583/pexels-photo-4068583.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&dpr=1';
+import heroImage from './HERO_IMAGE.jpg';
+import scriptureImage from './SCRIPTURE_IMAGE.jpg';
+import prayerBgImage from './PRAYER_BG_IMAGE.jpg';
+import bibleCollegeImage from './BIBLE_COLLEGE_IMAGE.jpg';
+import galleryImage from './GALLERY_IMAGE.jpg';
+import ministryImage from './MINISTRY_IMAGE.jpg';
 
-export const OUTREACH_BG_IMAGE =
-  'https://images.pexels.com/photos/20889043/pexels-photo-20889043.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&dpr=1';
 
-export const BIBLE_COLLEGE_IMAGE =
-  'https://images.pexels.com/photos/9589377/pexels-photo-9589377.jpeg?auto=compress&cs=tinysrgb&w=1600&h=1200&dpr=1';
+/* =========================
+   MAIN WEBSITE IMAGES
+========================= */
+
+export const HERO_IMAGE = heroImage;
+
+export const SCRIPTURE_IMAGE = scriptureImage;
+
+export const PRAYER_BG_IMAGE = prayerBgImage;
+
+export const OUTREACH_BG_IMAGE = galleryImage;
+
+export const BIBLE_COLLEGE_IMAGE = bibleCollegeImage;
+
+
+/* =========================
+   GALLERY IMAGES
+========================= */
 
 export const GALLERY_IMAGES = [
   {
-    src: '/gallery/gospel-meetings.jpg',
+    src: galleryImage,
     alt: 'Gospel meeting with hands raised in worship',
     label: 'Gospel Meetings',
   },
+
   {
-    src: '/gallery/prayer-meetings.jpg',
+    src: prayerBgImage,
     alt: 'Prayer gathering in church',
     label: 'Prayer Meetings',
   },
+
   {
-    src: '/gallery/bible-college.jpg',
-    alt: 'Bible College graduation ceremony with certificates',
+    src: bibleCollegeImage,
+    alt: 'Bible College graduation ceremony',
     label: 'Bible College',
   },
+
   {
-    src: '/gallery/worship.jpg',
-    alt: 'Choir singing in red robes',
+    src: ministryImage,
+    alt: 'Choir singing in worship',
     label: 'Worship',
   },
+
   {
-    src: '/gallery/outreach.jpg',
-    alt: 'Community outreach volunteers distributing aid',
+    src: galleryImage,
+    alt: 'Community outreach activities',
     label: 'Outreach',
   },
+
   {
-    src: '/gallery/ministry-activities.jpg',
-    alt: 'Church congregation in service',
+    src: ministryImage,
+    alt: 'Church congregation in ministry service',
     label: 'Ministry Activities',
   },
+
   {
-    src: '/gallery/youth-ministry.jpg',
-    alt: 'Youth group reading Bible together',
+    src: scriptureImage,
+    alt: 'Youth group reading the Bible together',
     label: 'Youth Ministry',
   },
+
   {
-    src: '/gallery/children-ministry.jpg',
-    alt: 'Children reading and learning together',
+    src: galleryImage,
+    alt: 'Children learning together',
     label: 'Children Ministry',
   },
 ];
 
+
+/* =========================
+   MINISTRY IMAGES
+========================= */
+
 export const MINISTRY_IMAGES: Record<string, string> = {
-  gospel:
-    'https://images.pexels.com/photos/34328505/pexels-photo-34328505.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1',
+  gospel: galleryImage,
 
-  prayer:
-    'https://images.pexels.com/photos/8275631/pexels-photo-8275631.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1',
+  prayer: prayerBgImage,
 
-  bible:
-    'https://images.pexels.com/photos/10438600/pexels-photo-10438600.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1',
+  bible: bibleCollegeImage,
 
-  discipleship:
-    'https://images.pexels.com/photos/21782665/pexels-photo-21782665.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1',
+  discipleship: scriptureImage,
 
-  youth:
-    'https://images.pexels.com/photos/23015910/pexels-photo-23015910.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1',
+  youth: scriptureImage,
 
-  children:
-    'https://images.pexels.com/photos/8499572/pexels-photo-8499572.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1',
+  children: galleryImage,
 
-  worship:
-    'https://images.pexels.com/photos/8815039/pexels-photo-8815039.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1',
+  worship: ministryImage,
 
-  outreach:
-    'https://images.pexels.com/photos/6646917/pexels-photo-6646917.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1',
+  outreach: galleryImage,
 };
