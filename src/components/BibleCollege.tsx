@@ -23,7 +23,7 @@ export function BibleCollege() {
                   src={BIBLE_COLLEGE_IMAGE}
                   alt="Open Bible on a podium in a church"
                   loading="lazy"
-                  className="w-full h-[420px] lg:h-[500px] object-cover"
+                  className="w-full h-[420px] lg:h-[500px] object-contain"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink-950/60 via-transparent to-transparent" />
               </div>
