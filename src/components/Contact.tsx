@@ -8,10 +8,10 @@ import { SOCIAL_LINKS } from '@/lib/data';
 type Status = 'idle' | 'submitting' | 'success' | 'error';
 
 const CONTACT_INFO = [
-  { icon: MapPin, label: 'Location', value: 'Chennai, Tamil Nadu, India' },
-  { icon: Mail, label: 'Email', value: 'info@avojministries.org' },
-  { icon: Phone, label: 'Phone', value: '+91 00000 00000' },
-  { icon: Clock, label: 'Office Hours', value: 'Mon – Sat, 9:00 AM – 6:00 PM' },
+  { icon: MapPin, label: 'Location', value: 'Uthiramerur, kanchipuram,Tamilnadu, india'},
+  { icon: Mail, label: 'Email', value: 'jyesm126@gmail.com' },
+  { icon: Phone, label: 'Phone', value: '+91 7299906126' },
+  { icon: Clock, label: 'Church Hours', value: 'Mon – Sun, 9:00 AM – 6:00 PM' },
 ];
 
 const SOCIALS = [
