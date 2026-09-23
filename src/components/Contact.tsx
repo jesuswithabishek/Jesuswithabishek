@@ -84,7 +84,7 @@ export function Contact() {
               <div className="rounded-2xl overflow-hidden border border-gold-400/10 h-64">
                 <iframe
                   title="AVOJ Ministries Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.8491708273!2d79.95!3d13.0478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265b4c4b0c7b3%3A0x4e4b1c4b4c4b4c4b!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3893.258416802223!2d79.75974987591796!3d12.631044887653802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52e1000f4f2bfb%3A0xa6742dbc60cb139!2sAlaraming%20voice%20of%20jesus%20ministries!5e0!3m2!1sen!2sin!4v1790157087205!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: 'grayscale(0.3) invert(0.9) hue-rotate(180deg) contrast(0.9)' }}
