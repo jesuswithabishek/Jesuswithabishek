@@ -87,9 +87,9 @@ export function Footer() {
               Get in Touch
             </h4>
             <ul className="space-y-3 text-sm text-cream-200/60">
-              <li>Chennai, Tamil Nadu, India</li>
-              <li>info@avojministries.org</li>
-              <li>+91 00000 00000</li>
+              <li>Uthiramerur, kanchipuram, Tamilnadu, india</li>
+              <li>jyesm126@gmail.com</li>
+              <li>+91 7299906126</li>
             </ul>
             <button
               onClick={() => scrollTo('#prayer')}
